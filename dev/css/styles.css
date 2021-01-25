@@ -8,7 +8,8 @@
         padding-left: 2%;
         padding-right: 2%;
         text-align: left;
-        margin-top: 30%;
+        margin-top: 25%;
+        padding-bottom: 10%;
     }
 
     .main-figure {
@@ -99,6 +100,10 @@
 
 @media screen and (min-width:640px) {
 
+    .main {
+        margin-top: 15%;
+    }
+
     .amazon-container {
         flex-direction: row;
     }
@@ -117,6 +122,8 @@
     .main {
         margin-top: 0;
         font-size: 2em;
+        padding-left: 18%;
+        padding-right: 18%;
     }
 
     .main-figure {
@@ -147,8 +154,12 @@
         border: 3px solid black;
     }
 
+    .game-container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
     .game-container div div {
         border: 3px solid black;
-        padding: 6em;
     }
 }
