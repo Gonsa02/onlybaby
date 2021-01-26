@@ -17,6 +17,10 @@
         margin-left: 5%;
     }
 
+    .top-bar .banner:hover {
+        background-color: teal;
+    }
+
     .top-bar .banner img {
         width: 3em;
         margin-right: 10%;
@@ -56,6 +60,10 @@
         background-color: aquamarine;
     }
 
+    .menu label:hover {
+        background-color: teal;
+    }
+
     .menu:hover {
         background-color: teal;
     }
@@ -70,7 +78,7 @@
     }
 
     .checkbox:checked ~ .nav {
-        margin-top: 35em;
+        margin-top: 42em;
     }
 
     .nav {
@@ -78,7 +86,7 @@
         position: absolute;
         background-color: aquamarine;
         left: 0;
-        top: -500%;
+        top: -600%;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -128,6 +136,10 @@
         margin-right: 2rem;
     }
 
+    .top-bar .nav-item-link {
+        font-size: 1.5em;
+    }
+
         
 }
 
@@ -148,7 +160,9 @@
         margin-right: 3rem;
     }
 
-        
+    .top-bar .nav-item-link {
+        font-size: 2em;
+    }   
 }
 
 @media screen and (min-width:1024px) {

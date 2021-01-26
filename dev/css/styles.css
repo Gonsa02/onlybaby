@@ -5,11 +5,9 @@
 
     .main {
         font-family: 'Roboto', sans-serif;
-        padding-left: 2%;
-        padding-right: 2%;
+        padding: 15%;
         text-align: left;
-        margin-top: 25%;
-        padding-bottom: 10%;
+        margin-top: 13%;
     }
 
     .main-figure {
@@ -67,6 +65,7 @@
     .link {
         background-color: rgb(241, 245, 21);
         height: 4em;
+        text-align: center;
     }
 
     .link:hover {
@@ -85,6 +84,7 @@
     .amazon-container {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .amazon-container div {
@@ -95,35 +95,61 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width:500px) {
+
+    .main {
+        font-size: 1.5em;
+    }
+
+    .game-container div{
+        display: flex;
     }
 }
 
 @media screen and (min-width:640px) {
 
     .main {
-        margin-top: 15%;
+        margin-top: 5%;
     }
 
     .amazon-container {
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 
-    .amazon-container div {
-        padding: 2em;
+     .amazon-container div {
+        padding: 0em;
     }
 
-    .game-container div div {
-        padding: 2em;
+    .game-container div{
+        display: flex;
+        padding: 0.5em;
     }
-
 }
+
+@media screen and (min-width:768px) {
+    .main {
+        margin-top: 0;
+        font-size: 1.8em;
+    }
+
+     .amazon-container {
+        padding: 0;
+    }
+} 
 
 @media screen and (min-width:1024px) {
     .main {
-        margin-top: 0;
-        font-size: 2em;
+        font-size: 1.5em;
         padding-left: 18%;
         padding-right: 18%;
+        padding-top: 0;
+        padding-bottom: 2em;
     }
 
     .main-figure {
@@ -138,10 +164,16 @@
 
     .flexbox {
         flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .flexbox-item div {
         height: 100%;
+    }
+
+    .flexbox-item {
+        width: 50%;
     }
 
     #ajust {
@@ -149,17 +181,22 @@
         padding-bottom: 1.5em;
     }
 
-    .amazon-container div {
-        padding: 1em;
-        border: 3px solid black;
+    .amazon-container {
+        flex-direction: row;
     }
 
-    .game-container {
-        padding-left: 5%;
-        padding-right: 5%;
+    .amazon-container div {
+        padding: 0.2em;
+        border: 3px solid black;
+        width: 6.5em;
+    }
+
+    .game-container div{
+        padding: 0em;
     }
 
     .game-container div div {
         border: 3px solid black;
+        padding: 2em;
     }
 }
