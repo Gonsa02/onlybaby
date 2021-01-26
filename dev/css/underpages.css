@@ -1,25 +1,47 @@
+@media screen and (min-width:320px) {
 
-@media screen and (min-width:768px) {
-    .amazon-container div {
-        padding: 0.5em;
+    .characteristics {
+        padding-left: 2em;
     }
 
-    .icon-image {
-        width: 30%;
-        margin-left: auto;
-        margin-right: auto;
+    .characteristics-sub {
+        padding: 0;
+        list-style: none;
     }
 
-    #big-image {
-        width: 60%;
-        margin-right: auto;
-        margin-left: auto;
+    .video {
+        text-align: center;
     }
 
-    #very-big-image {
-        width: 40%;
-        margin-right: auto;
-        margin-left: auto;
+    .video iframe {
+        width: 100%;
     }
 
+    .title-add {
+        text-align: center;
+    }
+
+    .item-image {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+
+    .characteristics {
+        padding-left: 3em;
+    }
+
+    .characteristics-sub {
+        padding-left: 3em;
+    }
+
+    .sub {
+        margin-left: 3em;
+    }
+
+    .sub li {
+        margin-left: 1em;
+    }
 }
